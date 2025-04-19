@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 1</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+    Camera Angle<input type="range" min="0" max="90" value="0" class="slider" id="angleSlide">
+    <p>
+    All Animation <button type="button" id = "allAnimationOn">ON</button>
+    <button type="button" id = "allAnimationOff">OFF</button>
+
+    <p>
+    Head<input type="range" min="-90" max="90" value="0" class="slider" id="headSlide">
+
+    <p>
+    Left Shoulder<input type="range" min="-90" max="90" value="0" class="slider" id="lShouSlide">Animation
+    <button type="button" id = "lShouAnimationOn">ON</button>
+    <button type="button" id = "lShouAnimationOff">OFF</button>
+    <p>
+    Left Elbow<input type="range" min="-90" max="0" value="0" class="slider" id="lElbSlide">
+    <p>
+    Left Leg<input type="range" min="-90" max="90" value="0" class="slider" id="lLegSlide">Animation
+    <button type="button" id = "lLegAnimationOn">ON</button>
+    <button type="button" id = "lLegAnimationOff">OFF</button>
+    <p>
+    Left Knee<input type="range" min="0" max="90" value="0" class="slider" id="lKneeSlide">
+    <p>
+    Right Shoulder<input type="range" min="-90" max="90" value="0" class="slider" id="rShouSlide">Animation
+    <button type="button" id = "rShouAnimationOn">ON</button>
+    <button type="button" id = "rShouAnimationOff">OFF</button>
+    <p>
+    Right Elbow<input type="range" min="-90" max="0" value="0" class="slider" id="rElbSlide">
+    <p>
+    Right Leg<input type="range" min="-90" max="90" value="0" class="slider" id="rLegSlide">Animation
+    <button type="button" id = "rLegAnimationOn">ON</button>
+    <button type="button" id = "rLegAnimationOff">OFF</button>
+    <p>
+    Right Knee<input type="range" min="0" max="90" value="0" class="slider" id="rKneeSlide">
+
+    
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-cse160.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Shape.js"></script>
+    <script src="Point.js"></script>
+    <script src="BlockyAnimal.js"></script>
+  </body>
+</html>
